@@ -13,3 +13,9 @@ while(charac != 0)
 }
  
 }
+
+int main(void)
+{
+printchar("_putchar");
+return (0);
+}
