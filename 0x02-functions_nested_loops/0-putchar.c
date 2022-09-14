@@ -14,6 +14,9 @@ putchar(charac[i++]);
 putchar('\n');
 }
 
+/**
+ *main - implements printchar
+ */
 int main(void)
 {
 printchar("_putchar");
