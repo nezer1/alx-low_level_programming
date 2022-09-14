@@ -7,6 +7,7 @@ include "main.h"
  */
 int main(void)
 {
-  char charac[]= "_putchar";
-  printchar(charac);
+char charac[]= "_putchar";
+printchar(charac);
+return (0);
 }
