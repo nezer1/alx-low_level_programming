@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *prints a string literal
+ *printchar - prints a string literal
  *@charac: string to be printed
  */
 void printchar(char charac[])
