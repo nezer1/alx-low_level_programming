@@ -13,7 +13,6 @@ putchar(charac[i++]);
 }
 putchar('\n');
 }
-
 /**
  * main - implements printchar
  *
