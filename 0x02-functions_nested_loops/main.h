@@ -1,6 +1,6 @@
 #ifndef Print
 #define Print
-
+#include <stdio.h>
 /*
  *function definitions
  */
