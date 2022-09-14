@@ -1,4 +1,4 @@
-#Include <stdio.h>
+#include <stdio.h>
 
 /**
  * print_alphabet - print alphabet in lower case
