@@ -11,7 +11,7 @@ while(charac[i] > 0)
 {
   putchar(charac[i++]);
 }
-
+putchar('\n');
 }
 
 int main(void)
