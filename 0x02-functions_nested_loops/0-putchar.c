@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *printchar - prints a string literal
- *@charac: string to be printed
+ * printchar - prints a string literal
+ * @charac: string to be printed
  */
 void printchar(char charac[])
 {
@@ -15,7 +15,7 @@ putchar('\n');
 }
 
 /**
- *main - implements printchar
+ * main - implements printchar
  *
  * Return: 0 for success 
  */
