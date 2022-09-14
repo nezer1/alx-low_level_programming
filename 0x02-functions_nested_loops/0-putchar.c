@@ -4,7 +4,7 @@
  *prints a string literal
  *@charac: string to be printed
  */
-void printchar(charac[])
+void printchar(char charac[])
 {
 int i = 0;
 while(charac != 0)
