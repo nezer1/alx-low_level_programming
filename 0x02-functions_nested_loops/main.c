@@ -8,6 +8,6 @@ include "main.h"
 int main(void)
 {
 char charac[]= "_putchar";
-printchar(charac);
+_putchar(charac);
 return (0);
 }

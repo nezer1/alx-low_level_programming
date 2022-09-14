@@ -4,6 +4,6 @@
 /*
  *function definitions
  */
-void printchar(char charac[]);
-int main(void);
+void _putchar(char charac[]);
+
 #endif /* Print */
