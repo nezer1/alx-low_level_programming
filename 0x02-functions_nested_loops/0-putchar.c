@@ -7,9 +7,9 @@
 void printchar(char charac[])
 {
 int i = 0;
-while(charac[i] > 0)
+ while (charac[i] > 0)
 {
-  putchar(charac[i++]);
+putchar(charac[i++]);
 }
 putchar('\n');
 }
