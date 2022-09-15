@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-
+0;10;1c
 /**
  *print_sign - prints sign of a number
  *
@@ -24,5 +24,5 @@ if (n < 0)
 putchar('-');
 return (-1);
 }
-return (0)
+return (0);
 }
