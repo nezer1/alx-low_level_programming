@@ -25,5 +25,4 @@ if (n < 0)
 putchar('-');
 return (-1);
 }
-return (0);
 }
