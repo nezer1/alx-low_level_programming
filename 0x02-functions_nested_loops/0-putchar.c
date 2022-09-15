@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * printchar - prints a string literal
+ * _putchar - prints a string literal
  * @charac: string to be printed
  */
-void printchar(char charac[])
+void _putchar(char charac[])
 {
 int i = 0;
 while (charac[i] > 0)
@@ -20,6 +20,6 @@ putchar('\n');
  */
 int main(void)
 {
-printchar("_putchar");
+_putchar("_putchar");
 return (0);
 }
