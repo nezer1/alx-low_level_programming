@@ -14,7 +14,7 @@ if (n < 0)
 {
 rem = n % 10;
 _putchar('0' + (-rem));
-return ((-rem));
+return (-rem);
 }
 else
 {
