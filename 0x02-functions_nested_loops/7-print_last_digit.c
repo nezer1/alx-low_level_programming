@@ -13,6 +13,6 @@ int rem;
 if (n < 0)
   n *= -1;
 rem = n % 10;
-_putchar(rem);
+_putchar('0' + rem);
 return (rem);
 }
