@@ -9,7 +9,7 @@
  */
 int print_last_digit(int n)
 {
-int rem;
+int rem = 0;
 if (n < 0)
 {
 rem = n % 10;
