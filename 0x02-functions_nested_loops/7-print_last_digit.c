@@ -1,4 +1,4 @@
-#include "main.h"
+q#include "main.h"
 
 /**
  * print_last_digit - print last digit
@@ -18,6 +18,7 @@ return (-rem);
 }
 else
 {
+rem = n % 10;
 _putchar('0' + rem); 
 return (rem);
 }
