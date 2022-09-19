@@ -7,7 +7,12 @@
 void print_rev(char *s)
 {
 int i = 0;
-int length = _strlen(s);
+int j = 0;
+while(j > '\0')
+{
+s[j++];
+}
+int length = j;
 int temporal = 0;
 while(i < length/2)
 {
