@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - length of string
+0;10;1c * _strlen - length of string
  *
  * @s: string
  * Return: length of string
@@ -14,4 +14,4 @@ while (s[i] > '\0')
 i++;
 }
 return (i);
-}      
+}
