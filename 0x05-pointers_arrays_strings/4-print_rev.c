@@ -12,7 +12,7 @@ int temporal = 0;
 while(i < length/2)
 {
 temporal = s[i];
-s[i] = s[len - i - 1];
-s[len - i - 1] = temporal;
+s[i] = s[length - i - 1];
+s[length - i - 1] = temporal;
 }
 }
