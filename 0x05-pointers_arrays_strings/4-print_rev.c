@@ -7,21 +7,15 @@
 void print_rev(char *s)
 {
 int j = 0;
-int i = 0;
-int length = 0;
+int i =0;
+char length = 0;
 int temporal = 0;
-while(s[length] > '\0')
+while (s[length] > '\0')
 {
-temporal = s[length++];
+length++;
 }
-while(i++ < length/2)
+for (i = length -1; i>=0; i--)
 {
-temporal = s[i];
-s[i] = s[length - i - 1];
-s[length - i - 1] = temporal;
-}
-while(j < length)
-{
-_putchar(s[j++]);
+_putchar(s[i]);
 }
 }
