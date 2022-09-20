@@ -6,6 +6,7 @@
  */
 void print_rev(char *s)
 {
+  int j = 0;
 int i = 0;
 int length = 0;
 int temporal = 0;
@@ -19,8 +20,8 @@ temporal = s[i];
 s[i] = s[length - i - 1];
 s[length - i - 1] = temporal;
 }
-while(s[length] >'\0')
+while(s[j] >'\0')
 {
-_putchar(s[length++]);
+_putchar(s[j++]);
 }
 }
