@@ -20,7 +20,7 @@ temporal = s[i];
 s[i] = s[length - i - 1];
 s[length - i - 1] = temporal;
 }
-while(s[j] >'\0')
+while(j < length)
 {
 _putchar(s[j++]);
 }
