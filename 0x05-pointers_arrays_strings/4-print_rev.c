@@ -9,7 +9,7 @@ void print_rev(char *s)
 int i = 0;
 int length;
 int temporal = 0;
-while(length > '\0')
+while(s[length] > '\0')
 {
 s[length++];
 }
