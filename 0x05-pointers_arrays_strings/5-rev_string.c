@@ -13,7 +13,7 @@ while (s[length] > '\0')
 {
 length++;
 }
-for (i = length - 1; length >= 0; length--)
+for (i = length - 1; i >= 0; i--)
 {
 len = length;
 s[i - (len - 1)] = s[i];
