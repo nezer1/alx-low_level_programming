@@ -11,7 +11,7 @@ int length = 0;
 int temporal = 0;
 while(s[length] > '\0')
 {
-temporal1 = s[length++];
+temporal = [length++];
 }
 while(i < length/2)
 {
