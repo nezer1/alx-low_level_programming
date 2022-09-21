@@ -10,6 +10,7 @@ length = string_len(str);
 int i = 0;
 int j = 0;
 int len = 0;
+int length = ;
 while (i < length) 
 {
 len = length;
