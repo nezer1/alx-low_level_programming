@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;10;1c
 /**
  * put_half - print half of a string 
  * @str: string
@@ -18,7 +18,7 @@ if (length % 2 == 0)
 {
 while (j < length/2)
 {
-_putchar(str[len--]);
+_putchar(str[(len/2)++]);
 j++;
 }
 }
@@ -26,7 +26,7 @@ else
 {
 while (j < (length - 1) / 2)
 {
-_putchar(str[len--]);
+_putchar(str[(len/2)++]);
 }
 }
 i++;
