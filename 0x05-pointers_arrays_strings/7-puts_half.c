@@ -8,7 +8,6 @@ void puts_half(char *str)
 {
 int i = 0;
 int j = 0;
-int len = 0;
 int length = 0;
 int half = 0;
 int half_o = 0;
@@ -17,7 +16,6 @@ half = length/2;
 half_o = (length -1)/2;
 while (i < length) 
 {
-len = length;
 if (length % 2 == 0)
 {
 while (j < length/2)
