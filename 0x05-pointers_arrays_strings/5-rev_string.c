@@ -31,7 +31,7 @@ st2--;
 /**
  * string_len - length of string
  * @s: pointer
- * Return: length 
+ * Return: length
  */
 int string_len(char *s)
 {
