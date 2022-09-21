@@ -10,7 +10,7 @@ char *_strcpy(char *dest, char *src)
 int length = 0;
 int i = 0;
 length = string_len(src);
-while (i <= length)
+while (i < length)
 {
 if (i == length)
 {
