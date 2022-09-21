@@ -25,10 +25,11 @@ void print(int a)
 if (a < 0)
 {
 _putchar('-');
+a = -a;
 }
 if (a / 10)
 {
 print(a / 10);
 }
- _putchar('0' + (a % 10));
+_putchar('0' + (a % 10));
 }
