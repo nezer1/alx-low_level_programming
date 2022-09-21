@@ -13,5 +13,6 @@ int string_len(char *s);
 void puts2(char *str);
 void print_array(int *a, int n);
 void print(int a);
+char *_strcpy(char *dest, char *src);
 
 #endif /* Pointers */
