@@ -15,6 +15,7 @@ while (i < length)
 *dest = *src;
 dest++;
 src++;
+i++; 
 }
 return (dest);
 }
