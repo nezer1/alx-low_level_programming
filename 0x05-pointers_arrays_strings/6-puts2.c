@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;10;1c
 /**
  * puts2 - prints every other character in a string
  * @str: string to print
@@ -16,4 +16,18 @@ if ( i % 2 == 0)
 _putchar(i);
 }
 }
+}
+
+/**
+ * string_len - length of string
+ * @s- string
+ */
+void string_len(char *s)
+{
+int length;
+while (s[length] > '\0')
+{
+length++;
+}
+return (length);
 }
