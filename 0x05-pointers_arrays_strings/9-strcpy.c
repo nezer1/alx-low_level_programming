@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;10;1c
 /**
  * _strcpy - copy string
  * @dest: destination pointer
@@ -17,7 +17,7 @@ dest++;
 src++;
 i++; 
 }
-return (&dest);
+return (dest);
 }
 
 /**
