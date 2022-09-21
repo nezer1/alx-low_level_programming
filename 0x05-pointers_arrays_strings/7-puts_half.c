@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * put_half - print half of a string 
+ * puts_half - print half of a string
  * @str: string
  */
 void puts_half(char *str)
@@ -12,13 +12,13 @@ int length = 0;
 int half = 0;
 int half_o = 0;
 length = string_len(str);
-half = length/2;
-half_o = (length -1)/2;
-while (i < length) 
+half = length / 2;
+half_o = (length - 1) / 2;
+while (i < length)
 {
 if (length % 2 == 0)
 {
-while (j < length/2)
+while (j < length / 2)
 {
 _putchar(str[half++]);
 j++;
@@ -40,6 +40,7 @@ _putchar('\n');
 /**
  * string_len - string length
  * @s: pointer
+ * Return: string length
  */
 int string_len(char *s)
 {
@@ -50,4 +51,3 @@ length++;
 }
 return (length);
 }
-  
