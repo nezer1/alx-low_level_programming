@@ -29,8 +29,9 @@ while (j < (length - 1) / 2)
 _putchar(str[len--]);
 }
 }
-_putchar('\n');
+i++;
 }
+_putchar('\n');
 }
 
 /**
