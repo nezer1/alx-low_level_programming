@@ -20,7 +20,7 @@ if (length % 2 == 0)
 {
 while (j < length/2)
 {
-_putchar(str[++half]);
+_putchar(str[half++]);
 j++;
 }
 }
