@@ -8,7 +8,7 @@
 void print_array(int *a, int n)
 {
 int i = 0;
-while(i < n)
+while (i < n)
 {
 print(a[i++]);
 if (i < n)
