@@ -9,7 +9,15 @@ void print_array(int *a, int n)
 {
 int i = 0;
 while(i < n)
+{  
+if (a[i++] < 0)
 {
-_putchar('0' + a[i++]);
+_putchar('-');
 }
-}  
+if (a[i++] / 10)
+{
+print_array(a[i] / 10);
+}
+_putchar('0' + (a[i]) % 10);
+}
+} 
