@@ -13,7 +13,7 @@ while (i < length)
 {
 if ( i % 2 == 0)
 {
-_putchar('0' + i);
+_putchar(str[i]);
 }
 i++;
 }
