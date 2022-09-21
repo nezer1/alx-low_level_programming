@@ -12,10 +12,20 @@ int i = 0;
 length = string_len(src);
 while (i <= length)
 {
+if (i == length)
+{
+*dest = '\0';
+dest++;
+src++;
+i++; 
+}
+else
+{
 *dest = *src;
 dest++;
 src++;
 i++; 
+}
 }
 return (dest);
 }
