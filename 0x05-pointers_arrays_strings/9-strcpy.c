@@ -12,7 +12,7 @@ int i = 0;
 length = string_len(src);
 while (i < length)
 {
-*dest = *src
+*dest = *src;
 dest++;
 src++;
 }
