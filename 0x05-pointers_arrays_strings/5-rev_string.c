@@ -8,13 +8,23 @@ void rev_string(char *s)
 {
 int length = 0;
 int i = 0;
+char *st1;
+char *st2;
+char temp;
 length = string_len(s);
-char st[length];
-
-for (i = length - 1; i >= 0; i--)
+st1 = s;
+st2 = s;
+for (i = 0;i < length - 1; i++)
 {
-length;
-st[i - (length - 1)] = s[i];
+st2++;
+}
+for (i = 0;i < length/2; i++)
+{
+temp = *st2;
+*st2 = *st1;
+*st1 = temp;
+st1++;
+st2--;
 }
 while(i < length)
 {
@@ -31,8 +41,6 @@ i++;
 void stirng_len(char *s)
 {
 int length = 0;
-int i = 0;
-int len = 0;
 while (s[length] > '\0')
 {
 length++;
