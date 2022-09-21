@@ -18,7 +18,7 @@ for (i  = 0; i < length - 1; i++)
 {
 st2++;
 }
-for (i = 0; i < length/2; i++)
+for (i = 0; i < length / 2; i++)
 {
 temp = *st2;
 *st2 = *st1;
