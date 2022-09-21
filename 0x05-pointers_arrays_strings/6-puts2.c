@@ -11,7 +11,7 @@ int i = 0;
 length = string_len(str);
 while (i < length)
 {
-if ( i % 2 == 0)
+if (i % 2 == 0)
 {
 _putchar(str[i]);
 }
@@ -22,7 +22,8 @@ _putchar('\n');
 
 /**
  * string_len - length of string
- * @s- string
+ * @s: string
+ * Return: length
  */
 int string_len(char *s)
 {
