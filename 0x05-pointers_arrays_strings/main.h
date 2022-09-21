@@ -10,5 +10,6 @@ void _puts(char *str);
 void _putchar(int n);
 void print_rev(char *s);
 int string_len(char *s);
+void puts2(char *str);
 
 #endif /* Pointers */
