@@ -11,7 +11,10 @@ int i = 0;
 while(i < n)
 {
 print(a[i++]);
+if (i > n-1)
+{
 _putchar(',');
+}
 _putchar(' '); 
 } 
 }
