@@ -14,7 +14,7 @@ print(a[i++]);
 if (i < n)
 {
 _putchar(',');
-_putchar(' '); 
+_putchar(' ');
 }
 }
 _putchar('\n');
