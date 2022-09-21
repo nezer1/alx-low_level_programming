@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;10;1c
 /**
  * print_array - print n elements of an array
  * @a: pointer to array
@@ -10,6 +10,6 @@ void print_array(int *a, int n)
 int i = 0;
 while(i < n)
 {
-_putchar(a[i++]);
+_putchar('0' + a[i++]);
 }
 }  
