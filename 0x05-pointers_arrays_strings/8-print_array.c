@@ -12,7 +12,7 @@ while(i < n)
 {
 print(a[i++]);
 _putchar(',');
-_putchar('\t'); 
+_putchar(' '); 
 } 
 }
 
