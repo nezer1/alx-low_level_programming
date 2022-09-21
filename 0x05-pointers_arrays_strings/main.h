@@ -12,5 +12,6 @@ void print_rev(char *s);
 int string_len(char *s);
 void puts2(char *str);
 void print_array(int *a, int n);
+void print(int a);
 
 #endif /* Pointers */

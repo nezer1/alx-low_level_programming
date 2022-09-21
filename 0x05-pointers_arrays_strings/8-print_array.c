@@ -9,15 +9,26 @@ void print_array(int *a, int n)
 {
 int i = 0;
 while(i < n)
-{  
-if (a[i++] < 0)
+{
+print(a[i++]);
+_putchar(',');
+_putchar('\t'); 
+} 
+}
+
+/**
+ * print - print integer
+ * @a: intger
+ */
+void print(int a)
+{
+if (a < 0)
 {
 _putchar('-');
 }
-if (a[i++] / 10)
+if (a / 10)
 {
-print_array(a[i] / 10);
+print(a / 10);
 }
-_putchar('0' + (a[i]) % 10);
+ _putchar('0' + (a % 10));
 }
-} 
