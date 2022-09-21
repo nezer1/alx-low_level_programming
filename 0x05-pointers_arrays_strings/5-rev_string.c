@@ -26,11 +26,6 @@ temp = *st2;
 st1++;
 st2--;
 }
-while(i < length)
-{
-s[i] = st[i];
-i++;
-}
 }
 
 /**
@@ -38,7 +33,7 @@ i++;
  * @s: pointer
  * Return: length 
  */
-void stirng_len(char *s)
+int string_len(char *s)
 {
 int length = 0;
 while (s[length] > '\0')

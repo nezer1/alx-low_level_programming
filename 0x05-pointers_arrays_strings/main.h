@@ -9,6 +9,6 @@ int _strlen(char *s);
 void _puts(char *str);
 void _putchar(int n);
 void print_rev(char *s);
-void string_len(char *s);
+int string_len(char *s);
 
 #endif /* Pointers */
