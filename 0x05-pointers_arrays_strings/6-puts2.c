@@ -7,7 +7,7 @@
 void puts2(char *str)
 {
 int length;
-int i;
+int i = 0;
 length = string_len(str);
 while (i < length)
 {
