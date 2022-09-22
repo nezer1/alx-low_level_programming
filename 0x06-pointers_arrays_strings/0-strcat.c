@@ -26,7 +26,7 @@ return (temp);
  * @s: string
  * Return: length 
  */
-void string_len(char *s)
+int string_len(char *s)
 {
 int length = 0;
 while (s[length] > '\0')
