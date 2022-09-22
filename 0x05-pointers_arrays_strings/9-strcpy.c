@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;10;1c
 /**
  * _strcpy - copy string
  * @dest: destination pointer
@@ -9,7 +9,7 @@ char *_strcpy(char *dest, char *src)
 {
 int length = 0;
 int i = 0;
-int *temp;
+char *temp;
 length = string_len(src);
 temp = dest
 while (i <= length)
