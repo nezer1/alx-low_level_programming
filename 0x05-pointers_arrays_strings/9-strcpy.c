@@ -4,7 +4,7 @@
  * _strcpy - copy string
  * @dest: destination pointer
  * @src: source pointer
- * Return: dest pointer 
+ * Return: dest pointer
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -34,7 +34,7 @@ return (temp);
 /**
  * string_len- length of string
  * @s: pointer
- * @Return: length
+ * Return: length
  */
 int string_len(char *s)
 {
