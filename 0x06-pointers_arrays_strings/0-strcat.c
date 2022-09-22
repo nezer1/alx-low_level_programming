@@ -4,6 +4,7 @@
  * _strcat - concatenate string
  * @dest: dest pointer
  * @src: src pointer
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -24,7 +25,7 @@ return (temp);
 /**
  * string_len - length of a string
  * @s: string
- * Return: length 
+ * Return: length
  */
 int string_len(char *s)
 {
