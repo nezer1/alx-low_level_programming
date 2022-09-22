@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * alpha- lower case
+ * main- lower case
  * Return: 0 success
  */
 int main(void)
