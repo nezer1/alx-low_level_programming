@@ -12,7 +12,7 @@ char *temp;
 int i;
 i = 0;
 temp = dest;
-while (*source != '\0')
+while (*src != '\0')
 {
 if (i < n)
 { 
@@ -20,6 +20,7 @@ if (i < n)
 dest++;
 src++;
 }
+i++;
 }
 *dest = '\0';
 return (temp);
