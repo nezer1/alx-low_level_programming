@@ -15,7 +15,7 @@ temp = dest;
 while (*src != '\0')
 {
 if (i < n)
-{ 
+{
 *dest = *src;
 dest++;
 src++;
