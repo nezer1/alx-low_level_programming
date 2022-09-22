@@ -18,7 +18,7 @@ dest[length] = src[i];
 length++;
 }
 dest[i] = '\0';
-return (temp);
+return (dest);
 }
 
 /**
