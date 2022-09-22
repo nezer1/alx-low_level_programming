@@ -4,6 +4,7 @@
  * _strcpy - copy string
  * @dest: destination pointer
  * @src: source pointer
+ * Return: dest pointer 
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -24,14 +25,14 @@ else
 *dest = *src;
 dest++;
 src++;
-i++; 
+i++;
 }
 }
 return (temp);
 }
 
 /**
- * string_len - length of string
+ * string_len- length of string
  * @s: pointer
  * @Return: length
  */
