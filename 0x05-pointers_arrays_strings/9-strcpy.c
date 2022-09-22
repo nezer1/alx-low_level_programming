@@ -11,7 +11,7 @@ int length = 0;
 int i = 0;
 char *temp;
 length = string_len(src);
-temp = dest
+temp = dest;
 while (i <= length)
 {
 if (i == length)
