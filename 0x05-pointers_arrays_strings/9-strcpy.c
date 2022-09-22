@@ -9,15 +9,15 @@ char *_strcpy(char *dest, char *src)
 {
 int length = 0;
 int i = 0;
+int *temp;
 length = string_len(src);
-while (i < length)
+temp = dest
+while (i <= length)
 {
 if (i == length)
 {
 *dest = '\0';
-dest++;
-src++;
-i++; 
+i++;
 }
 else
 {
@@ -27,7 +27,7 @@ src++;
 i++; 
 }
 }
-return (dest);
+return (temp);
 }
 
 /**
