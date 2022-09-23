@@ -12,4 +12,5 @@ while (i <= 57)
 putchar(i);
 }
 putchar('\n');
+return (0);
 }
