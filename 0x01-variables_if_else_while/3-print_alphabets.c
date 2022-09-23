@@ -7,22 +7,13 @@
 int main(void)
 {
 int i = 0;
-while (i <= 'z')
+for (i = 'A'; i <= 'Z'; i++;)
 {
-if (i <= 'Z')          
+putchar(i);
+}
+for (i = 'a'; i <= 'z'; i++;)
 {
-putchar('a' + i);
+putchar(i);
 }
-else 
-{
-if (i == '[')
-{
-i = 0;
-}
-putchar('A' + i);
-}
-i++;
-}
-putchar('\n');
 return (0);
 }
