@@ -15,8 +15,7 @@ putchar(i);
 }
 else
 {
-i = 'a';
-putchar(i);
+putchar(39 + i);
 }
 i++;
 }
