@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+0
 /** 
  * main- alphabet
  * Return: 0 for success
@@ -9,7 +9,6 @@ int main(void)
 int i = 0;
 while (i <= 'z')
 {
-
 if (i <= 'Z')          
 {
 putchar('a' + i);
@@ -20,7 +19,7 @@ if (i == '[')
 {
 i = 0;
 }
-putchar('A' + i);}
+putchar('A' + i);
 }
 i++;
 }
