@@ -10,7 +10,7 @@ int i = 0;
 int j = 0;
 while (j < 10)
 {
-while (i < 14)
+while (i <= 14)
 {
 if (i > 9)
 {
