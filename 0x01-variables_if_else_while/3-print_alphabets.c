@@ -13,11 +13,12 @@ if (i <= 'Z')
 {
 putchar('A' + i);
 }
-i++;
 else
 {
 putchar('a' + i);
 }
+i++;
 }
 putchar('\n');
+return (0);
 }
