@@ -15,7 +15,7 @@ if (i <= '9')
 putchar(i);
 i++;
 }
-else 
+else
 {
 putchar(j);
 j++;
