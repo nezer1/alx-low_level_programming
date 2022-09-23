@@ -1,5 +1,5 @@
 #include <stdio.h>
-0
+
 /** 
  * main- alphabet
  * Return: 0 for success
