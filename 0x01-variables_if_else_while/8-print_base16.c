@@ -13,9 +13,10 @@ if (i <= '9')
 {
 putchar(i);
 }
-else
+else 
 {
-putchar(39 + i);
+i += 39;  
+putchar(i);
 }
 i++;
 }
