@@ -1,0 +1,9 @@
+#ifndef functions
+#define functions
+
+/**
+ * function definitions
+ */
+int _isupper(int c);
+
+#endif /* functions */
