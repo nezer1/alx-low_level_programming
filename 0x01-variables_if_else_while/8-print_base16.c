@@ -6,18 +6,17 @@
  */
 int main(void)
 {
-int i = 0;
-int j = 0;
+int i = 48;
+int j = 'a';
 while (j <= 'f')
 {
 if (i <= '9')
 {
-putchar(i + '0');
+putchar(i);
 i++;
 }
 else 
 {
-j += 'a';
 putchar(j);
 j++;
 }
