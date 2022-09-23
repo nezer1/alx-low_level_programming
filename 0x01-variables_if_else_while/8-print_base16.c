@@ -6,19 +6,20 @@
  */
 int main(void)
 {
-int i = 48;
-while (i <= 'f')
+int i = 0;
+int j = 0;
+while (j <= 'f')
 {
 if (i <= '9')
 {
-putchar(i);
+putchar(i + '0');
+i++;
 }
 else 
-{
-i += 39;  
-putchar(i);
+{  
+putchar(j + 'a');
+j++;
 }
-i++;
 }
 putchar('\n');
 return (0);
