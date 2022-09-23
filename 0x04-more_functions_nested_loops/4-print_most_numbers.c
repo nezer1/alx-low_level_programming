@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_most_numbers- print
@@ -10,9 +11,9 @@ while (i <= 57)
 {
 if (i != 50 || i != 52)
 {
-_putchar(i);
+putchar(i);
 }
 i++;
 }
-_putchar('\n');
+putchar('\n');
 }
