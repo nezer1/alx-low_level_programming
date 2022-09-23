@@ -16,8 +16,9 @@ putchar(i + '0');
 i++;
 }
 else 
-{  
-putchar(j + 'a');
+{
+j += 'a';
+putchar(j);
 j++;
 }
 }
