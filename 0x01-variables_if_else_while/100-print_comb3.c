@@ -18,11 +18,12 @@ putchar(j  + '0');
 if (i != 8)
 {
 putchar(',');
-}
 putchar(' ');
+}
 j++;
 }
 j = count[++i];
 }
+putchar('\n');
 return (0);
 }
