@@ -8,7 +8,7 @@ int main(void)
 {
 int i = 0;
 int j = 1;
-int count[] = {1,2,3,4,5,6,7,8,9};
+int count[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 while (i <= 8)
 {
 while (j <= 9)
