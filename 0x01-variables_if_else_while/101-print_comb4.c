@@ -16,7 +16,7 @@ while (i <= 8)
 {
 while (j <= 9)
 {
-putchar(k + '0'); 
+putchar(k + '0');
 putchar(i + '0');
 putchar(j  + '0');
 if (k != 7 || i != 8 || j != 9)
