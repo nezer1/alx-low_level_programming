@@ -12,7 +12,7 @@ int i;
 printf("Infinite loop incoming :(\n");
 
 i = 0;
-/**
+/*
  * this parts causes the infinite
  *
  * while (i < 10)
