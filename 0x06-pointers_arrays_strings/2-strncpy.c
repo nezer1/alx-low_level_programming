@@ -21,6 +21,3 @@ i++;
 }
 return (temp);
 }
-
-/**
- * string_len
