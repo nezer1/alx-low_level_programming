@@ -14,10 +14,15 @@ int i;
 char *temp;
 length = string_len(dest);
 temp = dest;
-for (i = 0; i < n; i++)
+
+while (src[i] > '\0')
+{
+if (i <= n)
 {
 dest[length] = src[i];
 length++;
+}
+i++;
 }
 dest[length] = '\0';
 return (temp);
