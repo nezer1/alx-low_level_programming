@@ -19,7 +19,7 @@ while (j <= 9)
 putchar(k + '0'); 
 putchar(i + '0');
 putchar(j  + '0');
-if (k != 7)
+if (k != 7 || i != 8 || j != 9)
 {
 putchar(',');
 putchar(' ');
@@ -29,6 +29,8 @@ j++;
 j = count[++i];
 }
 k++;
+i = 1;
+j = 2;
 }
 putchar('\n');
 return (0);
