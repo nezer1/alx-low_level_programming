@@ -29,8 +29,8 @@ j++;
 j = count[++i];
 }
 k++;
-i = 1;
-j = 2;
+i = k + 1;
+j = 2 + k;
 }
 putchar('\n');
 return (0);
