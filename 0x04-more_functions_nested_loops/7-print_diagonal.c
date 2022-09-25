@@ -1,5 +1,5 @@
 #include "main.h"
-0;10;1c
+
 /**
  * print_diagonal- print line
  * @n: number of times
