@@ -16,12 +16,12 @@ else
 {
 while (i < n)
 {
-_putchar('\\');
-_putchar('\n');
 while (j < i)
 {
 _putchar(' ');
 }
+_putchar('\\');
+_putchar('\n');
 i++;
 }
 _putchar('\n');
