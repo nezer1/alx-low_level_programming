@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+0;10;1c
 /**
  * main- print fizzbuzz
  * Return: int
@@ -23,10 +23,14 @@ printf("FizzBuzz");
 }
 else
 {
-printf("%d",i);
+printf("%d", i);
 }
 i++;
+if (i != 100)
+{
 putchar(' ');
 }
+}
+putchar('\n');
 return (0);
 }
