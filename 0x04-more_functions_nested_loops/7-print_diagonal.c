@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;10;1c
 /**
  * print_diagonal- print line
  * @n: number of times
@@ -19,10 +19,12 @@ while (i < n)
 while (j < i)
 {
 _putchar(' ');
+j++;
 }
 _putchar('\\');
 _putchar('\n');
 i++;
+j = 0;
 }
 _putchar('\n');
 }
