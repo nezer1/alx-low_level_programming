@@ -1,4 +1,4 @@
-#include "main.h"
+\0;10;1c#include "main.h"
 
 /**
  * print_line- print line
@@ -12,7 +12,7 @@ if (n < 0)
 _putchar('\n');
 }
 else
-{   
+{
 while (i < n)
 {
 _putchar('_');
