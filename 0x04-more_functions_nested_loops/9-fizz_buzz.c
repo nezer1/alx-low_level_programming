@@ -1,5 +1,4 @@
 #include <stdio.h>
-0;10;1c
 /**
  * main- print fizzbuzz
  * Return: int
