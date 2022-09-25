@@ -22,7 +22,10 @@ _putchar(' ');
 j++;
 }
 _putchar('\\');
+if (i != (n-1))
+{
 _putchar('\n');
+}
 i++;
 j = 0;
 }
