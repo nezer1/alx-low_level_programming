@@ -25,7 +25,10 @@ else
 printf("%d", i);
 }
 i++;
+if ((i - 1) != 100)
+{
 printf(" ");
+}
 }
 putchar('\n');
 return (0);
