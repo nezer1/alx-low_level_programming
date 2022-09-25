@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;10;1c
 /**
  * print_line- print line
  * @n: number of times
@@ -15,7 +15,7 @@ else
 {   
 while (i < n)
 {
-_putchar(i);
+_putchar('-');
 }
 }
 _putchar('\n');
