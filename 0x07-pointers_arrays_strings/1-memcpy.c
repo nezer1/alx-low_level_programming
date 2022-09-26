@@ -4,6 +4,7 @@
  * @dest:dest pointer
  * @src: src pointer
  * @n: number limit
+ * Return: temp
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
