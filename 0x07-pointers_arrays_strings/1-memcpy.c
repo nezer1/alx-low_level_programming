@@ -12,7 +12,8 @@ char *temp;
 temp = dest;
 while (i < n)
 {
-dest[i++] = src[i++];
+dest[i] = src[i];
+i++;
 }
 return (temp);
 }
